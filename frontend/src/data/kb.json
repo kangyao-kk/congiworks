@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "kb-001",
+      "title": "React 18 Migration Guide",
+      "type": "file",
+      "fileName": "react-18-migration.pdf",
+      "fileSize": 2450000,
+      "uploadDate": "2026-05-20T14:30:00Z",
+      "description": "Official guide for migrating from React 17 to React 18"
+    },
+    {
+      "id": "kb-002",
+      "title": "Company API Documentation",
+      "type": "file",
+      "fileName": "api-docs-v3.md",
+      "fileSize": 890000,
+      "uploadDate": "2026-05-21T09:15:00Z",
+      "description": "Internal REST API documentation with endpoint references"
+    },
+    {
+      "id": "kb-003",
+      "title": "Code Review Best Practices",
+      "type": "text",
+      "fileName": null,
+      "fileSize": null,
+      "uploadDate": "2026-05-22T16:00:00Z",
+      "description": "1. Review in small batches (<400 lines)\n2. Check for security issues first\n3. Ensure tests cover edge cases\n4. Look for performance regressions\n5. Verify error handling is comprehensive"
+    },
+    {
+      "id": "kb-004",
+      "title": "System Architecture Overview",
+      "type": "file",
+      "fileName": "architecture-diagram.png",
+      "fileSize": 3200000,
+      "uploadDate": "2026-05-23T11:45:00Z",
+      "description": "High-level system architecture diagram showing microservices and data flow"
+    },
+    {
+      "id": "kb-005",
+      "title": "On-call Runbook",
+      "type": "text",
+      "fileName": null,
+      "fileSize": null,
+      "uploadDate": "2026-05-24T08:00:00Z",
+      "description": "## PagerDuty Response\n1. Acknowledge within 5 min\n2. Check Grafana dashboard\n3. If DB issue → restart read replica\n4. If API issue → rollback last deploy\n5. Escalate to SRE if unresolved after 15 min"
+    },
+    {
+      "id": "kb-006",
+      "title": "Q2 Product Roadmap",
+      "type": "file",
+      "fileName": "q2-roadmap-2026.xlsx",
+      "fileSize": 1500000,
+      "uploadDate": "2026-05-25T10:00:00Z",
+      "description": "Product roadmap for Q2 2026 with feature timelines and resource allocation"
+    }
+  ]
+}

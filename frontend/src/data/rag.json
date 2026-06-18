@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "id": "rag-001",
+      "name": "company_policy_2026.txt",
+      "size": 245760,
+      "uploadDate": "2026-05-25T10:30:00Z",
+      "status": "indexed",
+      "chunks": 42,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/company_policy_2026.txt"
+    },
+    {
+      "id": "rag-002",
+      "name": "react_18_migration_guide.txt",
+      "size": 524288,
+      "uploadDate": "2026-05-26T14:15:00Z",
+      "status": "indexed",
+      "chunks": 87,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/react_18_migration_guide.txt"
+    },
+    {
+      "id": "rag-003",
+      "name": "api_documentation_v3.txt",
+      "size": 1048576,
+      "uploadDate": "2026-05-27T09:00:00Z",
+      "status": "indexed",
+      "chunks": 156,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/api_documentation_v3.txt"
+    },
+    {
+      "id": "rag-004",
+      "name": "onboarding_guide_new_hire.txt",
+      "size": 327680,
+      "uploadDate": "2026-05-28T16:45:00Z",
+      "status": "processing",
+      "chunks": 0,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/onboarding_guide_new_hire.txt"
+    },
+    {
+      "id": "rag-005",
+      "name": "system_architecture_overview.txt",
+      "size": 2097152,
+      "uploadDate": "2026-05-29T11:20:00Z",
+      "status": "indexed",
+      "chunks": 312,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/system_architecture_overview.txt"
+    },
+    {
+      "id": "rag-006",
+      "name": "faq_customer_support_v2.txt",
+      "size": 819200,
+      "uploadDate": "2026-05-29T08:00:00Z",
+      "status": "failed",
+      "chunks": 0,
+      "fakeUrl": "https://rag-storage.internal/kb/docs/faq_customer_support_v2.txt"
+    }
+  ]
+}

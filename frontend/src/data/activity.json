@@ -1,0 +1,23 @@
+{
+  "agent-001": [
+    { "id": "act-001", "type": "agent_started", "description": "通用助手 已上线", "timestamp": "2026-05-25T08:00:00Z" },
+    { "id": "act-002", "type": "task_received", "description": "收到任务: 你好! 能帮我解释一下 React hooks", "timestamp": "2026-05-25T10:00:00Z" },
+    { "id": "act-003", "type": "thinking_started", "description": "通用助手 开始分析任务...", "timestamp": "2026-05-25T10:00:01Z" },
+    { "id": "act-004", "type": "task_completed", "description": "任务完成，耗时 2.1 秒 (245 字符)", "timestamp": "2026-05-25T10:00:03Z" },
+    { "id": "act-005", "type": "task_received", "description": "收到任务: 请详细讲讲 useEffect", "timestamp": "2026-05-25T10:01:00Z" },
+    { "id": "act-006", "type": "task_completed", "description": "任务完成，耗时 3.2 秒 (380 字符)", "timestamp": "2026-05-25T10:01:05Z" },
+    { "id": "act-007", "type": "config_updated", "description": "温度参数从 0.8 调整为 0.7", "timestamp": "2026-05-25T10:15:00Z" }
+  ],
+  "agent-002": [
+    { "id": "act-008", "type": "agent_started", "description": "代码审查助手 已上线", "timestamp": "2026-05-25T08:30:00Z" },
+    { "id": "act-009", "type": "task_received", "description": "收到代码审查请求", "timestamp": "2026-05-25T09:00:00Z" },
+    { "id": "act-010", "type": "task_completed", "description": "任务完成，耗时 3.5 秒，发现 3 个问题", "timestamp": "2026-05-25T09:00:04Z" }
+  ],
+  "agent-003": [
+    { "id": "act-011", "type": "agent_stopped", "description": "数据分析专家 已下线", "timestamp": "2026-05-24T18:00:00Z" }
+  ],
+  "agent-004": [
+    { "id": "act-012", "type": "error_occurred", "description": "API 速率限制超出，haiku 模型请求被拒绝", "timestamp": "2026-05-25T11:00:00Z" },
+    { "id": "act-013", "type": "error_occurred", "description": "连接超时 (30 秒)", "timestamp": "2026-05-25T10:58:00Z" }
+  ]
+}

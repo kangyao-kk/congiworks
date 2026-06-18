@@ -1,0 +1,127 @@
+[
+  {
+    "id": "agent-001",
+    "name": "通用助手",
+    "description": "基于 GPT-4o 的通用 AI 助手，具备高级推理能力，适用于日常问答和知识查询",
+    "status": "online",
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "maxTokens": 4096,
+    "systemPrompt": "你是一个乐于助人、尊重他人、诚实的 AI 助手。始终尽可能提供有帮助的回答，同时确保安全和道德。",
+    "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=assistant",
+    "category": "general",
+    "lastActive": "2026-05-25T10:30:00Z",
+    "metrics": {
+      "totalConversations": 2847,
+      "avgResponseTime": 1.2,
+      "successRate": 0.98,
+      "tokensUsed": 125000000
+    },
+    "presetTasks": [
+      { "label": "解释概念", "prompt": "请用通俗易懂的语言解释什么是机器学习？" },
+      { "label": "总结内容", "prompt": "请帮我总结 React 18 的核心新特性。" },
+      { "label": "翻译文本", "prompt": "请把'你好，最近怎么样？'翻译成英语、日语和韩语。" },
+      { "label": "头脑风暴", "prompt": "给我 5 个 2026 年科技创业的创意点子。" }
+    ]
+  },
+  {
+    "id": "agent-002",
+    "name": "代码审查助手",
+    "description": "专注于代码审查的 AI Agent，可分析 Pull Request 并提供改进建议",
+    "status": "online",
+    "model": "claude-sonnet-4-20250514",
+    "temperature": 0.3,
+    "maxTokens": 8192,
+    "systemPrompt": "你是一名专业的代码审查专家。分析代码中的 Bug、安全问题、性能瓶颈和风格违规，提供清晰、可操作的反馈。",
+    "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=codereview",
+    "category": "development",
+    "lastActive": "2026-05-25T09:15:00Z",
+    "metrics": {
+      "totalConversations": 1562,
+      "avgResponseTime": 0.8,
+      "successRate": 0.99,
+      "tokensUsed": 89000000
+    },
+    "presetTasks": [
+      { "label": "审查代码", "prompt": "请审查以下代码的最佳实践和潜在 Bug：\n\nfunction add(a,b){ return a+b }" },
+      { "label": "编写单测", "prompt": "为一个包含邮箱和密码字段的登录表单组件编写单元测试。" },
+      { "label": "重构建议", "prompt": "如何将一个 500 行的 React 组件重构为更小的、可复用的组件？" },
+      { "label": "安全审计", "prompt": "我的 Node.js API 需要检查哪些 OWASP Top 5 漏洞？" }
+    ]
+  },
+  {
+    "id": "agent-003",
+    "name": "数据分析专家",
+    "description": "专注于数据分析的 Agent，擅长 SQL 查询、可视化建议和统计分析",
+    "status": "offline",
+    "model": "gpt-4o",
+    "temperature": 0.2,
+    "maxTokens": 16384,
+    "systemPrompt": "你是一名数据分析专家。帮助用户分析数据、编写 SQL 查询、创建可视化图表，并解读统计结果。",
+    "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=analyst",
+    "category": "data",
+    "lastActive": "2026-05-24T18:00:00Z",
+    "metrics": {
+      "totalConversations": 982,
+      "avgResponseTime": 1.5,
+      "successRate": 0.95,
+      "tokensUsed": 67000000
+    },
+    "presetTasks": [
+      { "label": "分析销售数据", "prompt": "月度销售数据：1月=12万, 2月=15万, 3月=10万, 4月=18万, 5月=14万。请分析趋势。" },
+      { "label": "编写 SQL", "prompt": "写一条 SQL 查询，找出过去 6 个月内消费总额最高的前 10 名客户。" },
+      { "label": "图表建议", "prompt": "展示 12 个月的营销支出与营收关系，用什么图表类型最好？" },
+      { "label": "统计检验", "prompt": "请用实际例子说明什么情况下用 t 检验，什么情况下用卡方检验。" }
+    ]
+  },
+  {
+    "id": "agent-004",
+    "name": "智能客服",
+    "description": "自动化客服 Agent，处理常见问题、订单追踪和问题升级",
+    "status": "offline",
+    "model": "claude-haiku-4-20250514",
+    "temperature": 0.5,
+    "maxTokens": 2048,
+    "systemPrompt": "你是一名友好的客服人员。帮助客户解答产品问题、查询订单状态、处理退换货和解决常见故障。",
+    "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=support",
+    "category": "support",
+    "lastActive": "2026-05-25T11:00:00Z",
+    "metrics": {
+      "totalConversations": 5430,
+      "avgResponseTime": 0.5,
+      "successRate": 0.87,
+      "tokensUsed": 210000000
+    },
+    "presetTasks": [
+      { "label": "查询订单", "prompt": "我想查询订单号 #ORD-98234 的状态，能帮我看看吗？" },
+      { "label": "申请退货", "prompt": "我收到的商品有损坏，如何申请退货退款？" },
+      { "label": "常见问题", "prompt": "你们的退换货政策是怎样的？发货一般需要多长时间？" },
+      { "label": "升级问题", "prompt": "我的问题已经两周没有解决了，请帮我转接人工客服。" }
+    ]
+  },
+  {
+    "id": "agent-005",
+    "name": "内容创作者",
+    "description": "AI 文案助手，擅长博客文章、营销文案和社交媒体内容创作",
+    "status": "online",
+    "model": "gpt-4o",
+    "temperature": 0.9,
+    "maxTokens": 8192,
+    "systemPrompt": "你是一名创意内容作家。根据目标受众和品牌调性，生成有吸引力、SEO 友好的内容。",
+    "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=writer",
+    "category": "content",
+    "lastActive": "2026-05-25T10:45:00Z",
+    "metrics": {
+      "totalConversations": 3210,
+      "avgResponseTime": 2.1,
+      "successRate": 0.96,
+      "tokensUsed": 178000000
+    },
+    "presetTasks": [
+      { "label": "写博客", "prompt": "写一篇 500 字的博客文章，主题是远程办公对科技公司带来的好处与挑战。" },
+      { "label": "社交媒体文案", "prompt": "为我们的 AI 生产力应用创建 5 条吸引人的推广推文。" },
+      { "label": "产品描述", "prompt": "为一款带 AI 检测功能的智能家居安防摄像头撰写产品描述。" },
+      { "label": "邮件通讯", "prompt": "起草一封给用户的新闻邮件，宣布我们 Q2 的产品更新和新功能。" }
+    ]
+  }
+]
